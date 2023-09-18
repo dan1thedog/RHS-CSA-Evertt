@@ -1,4 +1,4 @@
-public class Art {
+public class AsciiArt {
     /* List of all requested art...
         Fish: ><(((('>
         Cat: =^..^=
@@ -38,13 +38,50 @@ public class Art {
 
     // Functions to print out requested art
     public void printFish() {
-        System.out.println("><(((('>");
+        System.out.println("Fish: ><(((('>");
     }
     public void printCat() {
-        System.out.println("=^..^=");
+        System.out.println("Cat: =^..^=");
     }
     public void printRose() {
-        // TODO - YOUR CODE GOES HERE
+        System.out.println("Rose: --------{---(@");
     }
-    // TODO - YOUR FUNCTIONS GOES HERE
+    public void printWorm() {
+        System.out.println("Worm: _/\\__/\\__0>");
+    }
+    public void printPersonalMessage() {
+        System.out.println("Personal:  (¯`·._.·(¯`·._.· Your Text ·._.·´¯)·._.·´¯)");
+    }
+    public void printCaterpillar() {
+        System.out.println("Caterpillar: ,/\\,/\\,/\\,/\\,/\\,/\\,o ");
+    }
+    public void printProfessor() {
+        System.out.println("Professor: \"\"⌐(ಠ۾ಠ)¬\"\"");
+    }
+    public void printMickey() {
+        String mickey = "Mickey:" + System.lineSeparator() +
+                        "                                 _____" + System.lineSeparator() +  
+                        "                             .d88888888bo."+ System.lineSeparator() + 
+                        "                            .d8888888888888b."+ System.lineSeparator() + 
+                        "                            8888888888888888b"+ System.lineSeparator() + 
+                        "                            888888888888888888"+ System.lineSeparator() + 
+                        "                            888888888888888888"+ System.lineSeparator() + 
+                        "                            Y8888888888888888"+ System.lineSeparator() + 
+                        "                       ,od888888888888888888P"+ System.lineSeparator() + 
+                        "                    .'`Y8P'```'Y8888888888P'"+ System.lineSeparator() + 
+                        "                  .'_   `  _     'Y88888888b"+ System.lineSeparator() + 
+                        "                 /  _`    _ `      Y88888888b   ____"+ System.lineSeparator() + 
+                        "             _  | /  \\  /  \\      8888888888.d888888b."+ System.lineSeparator() + 
+                        "            d8b | | /|  | /|      8888888888d8888888888b"+ System.lineSeparator() + 
+                        "            8888_\\ \\_|/  \\_|/      d888888888888888888888b"+ System.lineSeparator() + 
+                        "            .Y8P  `'-.            d88888888888888888888888"+ System.lineSeparator() + 
+                        "            /          `          `      `Y8888888888888888"+ System.lineSeparator() + 
+                        "            |                        __    888888888888888P"+ System.lineSeparator() + 
+                        "            \\                       / `   dPY8888888888P'"+ System.lineSeparator() + 
+                        "            '._                  .'     .'  `Y888888P`"+ System.lineSeparator() + 
+                        "                `\"'-.,__    ___.-'    .-'"+ System.lineSeparator() + 
+                        "                    `-._````  __..--'`"+ System.lineSeparator() + 
+                        "                        ``````";
+        System.out.println(mickey);
+    } 
 }
