@@ -33,12 +33,13 @@ public class AppMain {
         for (int i = 0; i<4*SIZE; i++){
             System.out.print("=");
         }
+            System.out.print('#');
         System.out.println();
     }
     public static void drawMiddle() {
-        for (int i = 0; i < SIZE; ++i) {
+        for (int i = 0; i < SIZE*3; ++i) {
             System.out.print("|");
-            System.out.print("    <..>    ");
+            System.out.print("   <>..<>   ");
             System.out.println("|");
         }
     }
